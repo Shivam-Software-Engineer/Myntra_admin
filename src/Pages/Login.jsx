@@ -14,8 +14,8 @@ export default function Login() {
     let navigate = useNavigate();
     let user = useSelector((store) => store.login.user);
     const [formData, setFormData] = useState({
-        uname: "",
-        pass: "",
+        uname: "admin",
+        pass: "admin123",
     });
 
     const [loading, setLoading] = useState(false);
