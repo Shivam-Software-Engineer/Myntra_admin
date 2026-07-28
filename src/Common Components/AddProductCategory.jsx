@@ -113,7 +113,7 @@ export default function AddProductCategory() {
 
     const updateProductCategory = () => {
 
-        axios.put(`${BaseUrl}/productcategory/update/${subCategoryId}`, {
+        axios.put(`${BaseUrl}/productcategory/update/${productCategoryId}`, {
 
             parentCategory,
             subCategory,
